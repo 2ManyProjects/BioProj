@@ -18,35 +18,22 @@ export default class Home extends PureComponent {
           <div style={{ alignSelf: "center" }}>
             <h1> Citations </h1>
           </div>
+
           <ul>
-            (1) Leader, B., Baca, Q. J., & Golan, D. E. (2008). Protein
-            therapeutics: a summary and pharmacological classification. Nature
-            Reviews Drug Discovery, 7(1), 21–39. doi:10.1038/nrd2399.
-          </ul>
-          <ul>
-            (2) Carter, P. J. (2011). Introduction to current and future protein
-            therapeutics: A protein engineering perspective. Experimental Cell
-            Research, 317(9), 1261–1269. doi:10.1016/j.yexcr.2011.02.013{" "}
-          </ul>
-          <ul>
-            (3) Park, J. B., & Lakes, R. S. (2010). Biomaterials: an
-            introduction. Springer.
-          </ul>
-          <ul>
-            (4) Maskarinec, S. A., & Tirrell, D. A. (2005). Protein engineering
-            approaches to biomaterials design. Current Opinion in Biotechnology,
-            16(4), 422–426. doi:10.1016/j.copbio.2005.06.009{" "}
-          </ul>
-          <ul>
-            (5) Banta, S., Wheeldon, I. R., & Blenner, M. (2010). Protein
+            Banta, S., Wheeldon, I. R., & Blenner, M. (2010). Protein
             Engineering in the Development of Functional Hydrogels. Annual
             Review of Biomedical Engineering, 12(1), 167–186.
             doi:10.1146/annurev-bioeng-070909-105334{" "}
           </ul>
           <ul>
-            (6) Cai, L., & Heilshorn, S. C. (2014). Designing ECM-mimetic
-            materials using protein engineering. Acta Biomaterialia, 10(4),
-            1751–1760. doi:10.1016/j.actbio.2013.12.028
+            Cai, L., & Heilshorn, S. C. (2014). Designing ECM-mimetic materials
+            using protein engineering. Acta Biomaterialia, 10(4), 1751–1760.
+            doi:10.1016/j.actbio.2013.12.028
+          </ul>
+          <ul>
+            Carter, P. J. (2011). Introduction to current and future protein
+            therapeutics: A protein engineering perspective. Experimental Cell
+            Research, 317(9), 1261–1269. doi:10.1016/j.yexcr.2011.02.013{" "}
           </ul>
           <ul>
             Clark, M. A., Choi, J., & Douglas, M. (2018). Biology 2e. BCcampus,
@@ -79,6 +66,11 @@ export default class Home extends PureComponent {
             vol 8. https://doi.org/10.1016/j.cbpa.2003.12.008
           </ul>
           <ul>
+            Leader, B., Baca, Q. J., & Golan, D. E. (2008). Protein
+            therapeutics: a summary and pharmacological classification. Nature
+            Reviews Drug Discovery, 7(1), 21–39. doi:10.1038/nrd2399.
+          </ul>
+          <ul>
             Leopold, P. E., Montal, M., & Onuchic, J. N. (1992). Protein folding
             funnels: a kinetic approach to the sequence-structure relationship.
             PNAS, 89 (18), 8721-8725. https://doi.org/10.1073/pnas.89.18.8721
@@ -94,6 +86,15 @@ export default class Home extends PureComponent {
             Protein Engineering for Improving and Diversifying Natural Product
             Biosynthesis. Trends in Biotechnology, vol 38.
             https://doi.org/10.1016/j.tibtech.2019.12.00
+          </ul>
+          <ul>
+            Maskarinec, S. A., & Tirrell, D. A. (2005). Protein engineering
+            approaches to biomaterials design. Current Opinion in Biotechnology,
+            16(4), 422–426. doi:10.1016/j.copbio.2005.06.009
+          </ul>
+          <ul>
+            Park, J. B., & Lakes, R. S. (2010). Biomaterials: an introduction.
+            Springer.
           </ul>
           <ul>
             Plintnich, L. M., & Herzyk, D. J. (2013). Nonclinical Development of

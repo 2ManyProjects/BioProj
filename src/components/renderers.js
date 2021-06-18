@@ -40,7 +40,10 @@ class Menu extends PureComponent {
         </div>
         <div>
           {" "}
-          <h3> {this.props.subtitle[this.props.stage]}</h3>
+          <h3 style={{ color: "yellow" }}>
+            {" "}
+            {this.props.subtitle[this.props.stage]}
+          </h3>
         </div>
         {this.props.stage === 2 && <Fireworks {...fxProps} />}
       </div>

@@ -77,9 +77,7 @@ export default class Home extends PureComponent {
               fontSize: this.props.isMobile ? "3vw" : "1.5vw",
               zIndex: 1,
             }}
-          >
-            Some Tag Line here?
-          </h5>
+          ></h5>
         </div>
         <div>
           <span
@@ -550,7 +548,7 @@ export default class Home extends PureComponent {
                   link="/"
                   isMobile={this.props.isMobile}
                   btnText=""
-                  text="Protein is engineered by modifying protein sequence by adding, deleting, and substituting nucleotides in the gene in order to change the pH of the protein or to make protein more stable to the temperature, for example (Dhanjal et al., 2019). First, protein is modulated by a method called computational design, which seeks to locate and identify amino acid sequences that require low energy to modify for a specific protein structure. In order to find the lowest energy structure of the amino acid sequence, scientists use Rosetta methodology, which simulates possible protein folding and samples the energy of the simulated protein structure. When a protein with new shapes and functions is designed on a computer, scientists encode the protein in a synthetic gene. The encoding has to be done in a synthetic gene since none of existing organisms can encode the designed new protein. After the synthetic genes are obtained, scientists insert it into bacteria as they can make programmed proteins (Kortemme & Baker, 2004). 
+                  text="Protein is engineered by modifying protein sequence by adding, deleting, and substituting nucleotides in the gene in order to change the pH of the protein or to make protein more stable to the temperature, for example (Dhanjal et al., 2019). First, protein is modulated by a method called computational design, which seeks to locate and identify optimal amino acid sequences that require low energy to modify for a specific protein structure. In order to find the lowest energy structure of the amino acid sequence, scientists use Rosetta methodology, which simulates possible protein folding and samples the energy of the simulated protein structure. When a protein with new shapes and functions is designed on a computer, scientists encode the protein in a synthetic gene. The encoding has to be done in a synthetic gene since none of existing organisms can encode the designed new protein. After the synthetic genes are obtained, scientists insert it into bacteria as they can make programmed proteins (Kortemme & Baker, 2004). 
                   "
                   embedId="E6B6Mqr5YRE"
                 ></ImageText>
@@ -631,12 +629,12 @@ export default class Home extends PureComponent {
                   link="/"
                   isMobile={this.props.isMobile}
                   btnText=""
-                  text="One application of protein engineering is in the field of protein therapeutics. Protein therapeutics is a medical treatment consisting of the use of proteins as a means to mediate illnesses, and has been explored since the 1980s (1). As proteins are able to perform many tasks in the body, and the activity of each type of protein is very distinct, proteins offer tremendous potential in medical applications (2). In 2008, there were proteins and peptides approved by the US Food and Drug Administration (2), most of which deal with antibody-based drugs (1). Future development of protein therapeutics via protein engineering is currently focused on improved safety, and effectiveness (1).
+                  text="One application of protein engineering is in the field of protein therapeutics. Protein therapeutics is a medical treatment consisting of the use of proteins as a means to mediate illnesses, and has been explored since the 1980s (Leader & Golan, 2008). As proteins are able to perform many tasks in the body, and the activity of each type of protein is very distinct, proteins offer tremendous potential in medical applications . In 2008, there were proteins and peptides approved by the US Food and Drug Administration, most of which deal with antibody-based drugs. Future development of protein therapeutics via protein engineering is currently focused on improved safety, and effectiveness (Leader & Golan, 2008, Carter, 2011).
  
-                  A possible future application of protein engineering already being explored can be found in biomaterials design. Biomaterials are materials used to create matter which replaces certain body parts, effectively (3). As the human body is complex, it is difficult to find substances able to create safe, long lasting, and strong biomaterials for medical procedures such as tissue engineering and reconstructive surgery (4). Protein engineering may be a solution for such problems. The advantage of proteins in this domain is due to the fact that biomaterials have many functional requirements, both biological and mechanical, and proteins may be engineered to be able to accomplish many of them, as each macromolecular property can be individually contrived (4). Moreover, proteins are able to regulate the behavior of cells (4), making it a prime candidate.
-                   
-                  Other current and possible future applications of protein engineering include the creation of new hydrogels (5), which can serve biomedical purposes, and in regenerative medicine (6). Thus, protein engineering has a wide range of applications, mostly explored in the realm of biomedical operations by the scientific community. However, with the advent of protein engineering in biomaterials, protein engineering may soon be used for material applications outside the scope of medicine.
-                  "
+                  A possible future application of protein engineering already being explored can be found in biomaterials design. Biomaterials are materials used to create matter which replaces certain body parts, effectively (Park & Lakes, 2010). As the human body is complex, it is difficult to find substances able to create safe, long lasting, and strong biomaterials for medical procedures such as tissue engineering and reconstructive surgery. Protein engineering may be a solution for such problems. The advantage of proteins in this domain is due to the fact that biomaterials have many functional requirements, both biological and mechanical, and proteins may be engineered to be able to accomplish many of them, as each macromolecular property can be individually contrived. Moreover, proteins are able to regulate the behavior of cells, making it a prime candidate (Maskarinec & Tirrell, 2005).
+                    
+                   Other current and possible future applications of protein engineering include the creation of new hydrogels, which can serve biomedical purposes, and in regenerative medicine (Cai & Heilshorn, 2014, Banta, Wheekdon & Blenner, 2010). Thus, protein engineering has a wide range of applications, mostly explored in the realm of biomedical operations by the scientific community. However, with the advent of protein engineering in biomaterials, protein engineering may soon be used for material applications outside the scope of medicine.
+                   "
                   embedId="HuvxTN47iCQ"
                 ></ImageText>
               </div>

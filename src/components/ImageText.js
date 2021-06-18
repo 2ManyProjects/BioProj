@@ -91,14 +91,6 @@ function ImageText(props) {
               >
                 {props.text}
               </div>
-
-              {btn && (
-                <Link to={props.link}>
-                  <Button outline theme="secondary">
-                    {props.btnText}
-                  </Button>
-                </Link>
-              )}
             </div>
           </div>
         )}
@@ -159,14 +151,6 @@ function ImageText(props) {
               >
                 {props.text}
               </p>
-
-              {btn && (
-                <Link to={props.link}>
-                  <Button outline theme="secondary">
-                    {props.btnText}
-                  </Button>
-                </Link>
-              )}
             </div>
           </div>
         )}

@@ -104,19 +104,8 @@ function BottomHeader(props) {
                   "https://sites.google.com/view/biol-111-protein-quiz/home?authuser=0";
               }}
             >
-              Check it out
+              Check out our quiz
             </Button>
-
-            <div
-              style={{
-                display: "none",
-                paddingTop: props.isMobile ? "10px" : "20px",
-                fontSize: "7px",
-                color: "#ffffff",
-              }}
-            >
-              Some disclaimer text here
-            </div>
           </div>
         </div>
 
