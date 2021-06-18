@@ -162,43 +162,6 @@ export default class Home extends PureComponent {
               </div>
             </Shape>
           </div>
-          <div
-            style={{
-              display: "block",
-              flexDirection: "row",
-              position: "relative",
-              alignSelf: "flex-start",
-              width: "600px",
-              height: "475px",
-              background: "rgb(150, 213, 89)",
-              // marginBottom: "130px",
-              paddingLeft: "10px",
-              paddingTop: "20px",
-              paddingBottom: "52vw",
-            }}
-          >
-            <Shape>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "100px",
-                  right: "0%",
-                  width: "100%",
-                }}
-              >
-                <ImageText
-                  imageSrc={mushroomPic}
-                  flip={true}
-                  title="Physics of Protein Folding"
-                  link="/"
-                  isMobile={this.props.isMobile}
-                  btnText=""
-                  text="Contrary to what may seem intuitive, proteins do not follow a well organized series of predetermined steps to reach their native structure, they fold somewhat randomly, correcting errors as they approach lower and lower energy states. The process of protein folding is analogous to the statistical physics of “spin glasses” (Wolynes & Bryngelson, 1987). In a spin glass, neighbouring atoms of disordered magnetic alloys can spin either in the same or opposite directions, and as a spin glass cools the spins arrange themselves in a low energy conformation that satisfies as many atoms as possible. This behaviour is mirrored in protein folding as the protein will fold through many conformations to attempt to reach a stable low energy state. A chain of amino acids that is unable to easily find the unique shape that produces a functioning protein is a “frustrated” protein (Wolynes & Eaton, 1999). Frustration is a protein's ability to reach a low energy state while satisfying as many amino acid neighbours as possible. Wolynes & Eaton describe the “principle of minimal frustration” as the guiding principle that produces the organic proteins we find inside living things. In random assortments of amino acids, there are typically many ways to get an approximately equal low energy state. The “energy landscape” of these frustrated proteins would have many local energy minima, with no state dominating over the rest (Wolynes & Eaton, 1999). What we find in biologically occurring proteins is that in their energy landscape, they have a so-called “energy funnel” (Leopold, Montal, & Onuchic, 1991). As these proteins wriggle about searching for a low energy conformation, it’s conformations will lead it down towards its native structure -the folded protein you would find in your body-. This native state sits at the bottom of a global minimum energy conformation. There are clear evolutionary imperatives responsible for selecting for proteins that tend to fold the same way every time, as opposed to the random assortment of amino acids with their near random stable conformations; when you’re building a living thing of course, consistency is key. When we engineer proteins, therefore, we must search for proteins that not only can conform to a shape that is biologically useful, we must search for proteins that have a predictable folding funnel that can consistently produce useful proteins."
-                  embedId="-Cu3pfB9O-Y"
-                ></ImageText>
-              </div>
-            </Shape>
-          </div>
 
           <div
             style={{
@@ -238,7 +201,6 @@ export default class Home extends PureComponent {
               </div>
             </Shape>
           </div>
-
           <div
             style={{
               background: "rgb(216,232,230)",
@@ -508,15 +470,51 @@ export default class Home extends PureComponent {
                   link="/"
                   isMobile={this.props.isMobile}
                   btnText=" "
-                  text="Protein engineering is important for a simple reason, because proteins are important. In the growing field of biosynthesis of natural products, protein engineering is “paramount” for modifying enzymes or biosensors. (Li et al. 2020)
-
-                  The increased involvement of computation in protein engineering has further raised the potential of protein engineering as a whole. An example of the application of protein engineering can be found in the pharmaceutical use of insulin. When it was discovered that native insulins had a “slower onset of therapeutic effect”, the amino acid sequence of the insulin protein was altered to obtain a faster acting insulin. (Reynolds et al. 2013) 
-                  "
+                  text="Protein engineering is important for a simple reason, because proteins are important. In the growing field of biosynthesis of natural products, protein engineering is “paramount” for modifying enzymes or biosensors. (Li et al. 2020)"
+                  text2="The increased involvement of computation in protein engineering has further raised the potential of protein engineering as a whole. An example of the application of protein engineering can be found in the pharmaceutical use of insulin. When it was discovered that native insulins had a “slower onset of therapeutic effect”, the amino acid sequence of the insulin protein was altered to obtain a faster acting insulin. (Reynolds et al. 2013) "
                   embedId="10Gmbb-p314"
                 ></ImageText>
               </div>
             </Shape>
           </div>
+          <div
+            style={{
+              display: "block",
+              flexDirection: "row",
+              position: "relative",
+              alignSelf: "flex-start",
+              width: "600px",
+              height: "475px",
+              background: "rgb(150, 213, 89)",
+              // marginBottom: "130px",
+              paddingLeft: "10px",
+              paddingTop: "20px",
+              paddingBottom: "52vw",
+            }}
+          >
+            <Shape>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "100px",
+                  right: "0%",
+                  width: "100%",
+                }}
+              >
+                <ImageText
+                  imageSrc={mushroomPic}
+                  flip={true}
+                  title="Physics of Protein Folding"
+                  link="/"
+                  isMobile={this.props.isMobile}
+                  btnText=""
+                  text="Contrary to what may seem intuitive, proteins do not follow a well organized series of predetermined steps to reach their native structure, they fold somewhat randomly, correcting errors as they approach lower and lower energy states. The process of protein folding is analogous to the statistical physics of “spin glasses” (Wolynes & Bryngelson, 1987). In a spin glass, neighbouring atoms of disordered magnetic alloys can spin either in the same or opposite directions, and as a spin glass cools the spins arrange themselves in a low energy conformation that satisfies as many atoms as possible. This behaviour is mirrored in protein folding as the protein will fold through many conformations to attempt to reach a stable low energy state. A chain of amino acids that is unable to easily find the unique shape that produces a functioning protein is a “frustrated” protein (Wolynes & Eaton, 1999). Frustration is a protein's ability to reach a low energy state while satisfying as many amino acid neighbours as possible. Wolynes & Eaton describe the “principle of minimal frustration” as the guiding principle that produces the organic proteins we find inside living things. In random assortments of amino acids, there are typically many ways to get an approximately equal low energy state. The “energy landscape” of these frustrated proteins would have many local energy minima, with no state dominating over the rest (Wolynes & Eaton, 1999). What we find in biologically occurring proteins is that in their energy landscape, they have a so-called “energy funnel” (Leopold, Montal, & Onuchic, 1991). As these proteins wriggle about searching for a low energy conformation, it’s conformations will lead it down towards its native structure -the folded protein you would find in your body-. This native state sits at the bottom of a global minimum energy conformation. There are clear evolutionary imperatives responsible for selecting for proteins that tend to fold the same way every time, as opposed to the random assortment of amino acids with their near random stable conformations; when you’re building a living thing of course, consistency is key. When we engineer proteins, therefore, we must search for proteins that not only can conform to a shape that is biologically useful, we must search for proteins that have a predictable folding funnel that can consistently produce useful proteins."
+                  embedId="-Cu3pfB9O-Y"
+                ></ImageText>
+              </div>
+            </Shape>
+          </div>
+
           <div
             style={{
               display: "block",
@@ -587,12 +585,9 @@ export default class Home extends PureComponent {
                   link="/"
                   isMobile={this.props.isMobile}
                   btnText=""
-                  text="Enbrel, with the proper name of Etanercept, is a pharmaceutical product that is synthesised from biological sources. Its main use is the treatment of autoimmune diseases (diseases where the patient is mistakenly attacked by their own immune system) by interfering with TNF, the protein that signals the detection of an infection by macrophages. (“Etanercept”, 2021)
-
-                  Etanercept was first synthesised at the University of Texas Southwestsern Medical Center at Dallas by Bruce A. Beutler. Etanercept is made from combining two natural soluble TNF receptors linked to a portion of Immunoglobulin G. (“Etanercept”, 2021) Etanercept is considered a recombinant fusion protein, meaning that it is created by combining multiple genes that were originally made for separate proteins. (“Fusion Protein”, 2021)
-                  
-                  One of the World Health Organization’s essential medicines, Etanercept prevents diseases such as psoriatic arthritis, rheumatoid arthritis, and many other autoimmune diseases by interfering with the TNF protein. In the human body, TNF is produced by lymphocytes and macrophages, and its purpose is to regulate the immune response by attracting white blood cells to the site at which the inflammation occurs. Typically, the body controls the autoimmune response with soluble TNF receptors in the body, these will bind to TNF, then dissolve over time. Seeking to inhibit the effects of TNF, Etanercept will act as a decoy receptor, binding to TNF; then, being a biosynthesised product, Etanercept will take much longer to dissolve compared to its natural counterpart, reducing the autoimmune response. (“Etanercept”, 2021)
-                  "
+                  text="Enbrel, with the proper name of Etanercept, is a pharmaceutical product that is synthesised from biological sources. Its main use is the treatment of autoimmune diseases (diseases where the patient is mistakenly attacked by their own immune system) by interfering with TNF, the protein that signals the detection of an infection by macrophages. (“Etanercept”, 2021)"
+                  text2="Etanercept was first synthesised at the University of Texas Southwestsern Medical Center at Dallas by Bruce A. Beutler. Etanercept is made from combining two natural soluble TNF receptors linked to a portion of Immunoglobulin G. (“Etanercept”, 2021) Etanercept is considered a recombinant fusion protein, meaning that it is created by combining multiple genes that were originally made for separate proteins. (“Fusion Protein”, 2021)"
+                  text3="One of the World Health Organization’s essential medicines, Etanercept prevents diseases such as psoriatic arthritis, rheumatoid arthritis, and many other autoimmune diseases by interfering with the TNF protein. In the human body, TNF is produced by lymphocytes and macrophages, and its purpose is to regulate the immune response by attracting white blood cells to the site at which the inflammation occurs. Typically, the body controls the autoimmune response with soluble TNF receptors in the body, these will bind to TNF, then dissolve over time. Seeking to inhibit the effects of TNF, Etanercept will act as a decoy receptor, binding to TNF; then, being a biosynthesised product, Etanercept will take much longer to dissolve compared to its natural counterpart, reducing the autoimmune response. (“Etanercept”, 2021)"
                   embedId="hJfiwx8IIyI"
                 ></ImageText>
               </div>
@@ -629,12 +624,9 @@ export default class Home extends PureComponent {
                   link="/"
                   isMobile={this.props.isMobile}
                   btnText=""
-                  text="One application of protein engineering is in the field of protein therapeutics. Protein therapeutics is a medical treatment consisting of the use of proteins as a means to mediate illnesses, and has been explored since the 1980s (Leader & Golan, 2008). As proteins are able to perform many tasks in the body, and the activity of each type of protein is very distinct, proteins offer tremendous potential in medical applications . In 2008, there were proteins and peptides approved by the US Food and Drug Administration, most of which deal with antibody-based drugs. Future development of protein therapeutics via protein engineering is currently focused on improved safety, and effectiveness (Leader & Golan, 2008, Carter, 2011).
- 
-                  A possible future application of protein engineering already being explored can be found in biomaterials design. Biomaterials are materials used to create matter which replaces certain body parts, effectively (Park & Lakes, 2010). As the human body is complex, it is difficult to find substances able to create safe, long lasting, and strong biomaterials for medical procedures such as tissue engineering and reconstructive surgery. Protein engineering may be a solution for such problems. The advantage of proteins in this domain is due to the fact that biomaterials have many functional requirements, both biological and mechanical, and proteins may be engineered to be able to accomplish many of them, as each macromolecular property can be individually contrived. Moreover, proteins are able to regulate the behavior of cells, making it a prime candidate (Maskarinec & Tirrell, 2005).
-                    
-                   Other current and possible future applications of protein engineering include the creation of new hydrogels, which can serve biomedical purposes, and in regenerative medicine (Cai & Heilshorn, 2014, Banta, Wheekdon & Blenner, 2010). Thus, protein engineering has a wide range of applications, mostly explored in the realm of biomedical operations by the scientific community. However, with the advent of protein engineering in biomaterials, protein engineering may soon be used for material applications outside the scope of medicine.
-                   "
+                  text="One application of protein engineering is in the field of protein therapeutics. Protein therapeutics is a medical treatment consisting of the use of proteins as a means to mediate illnesses, and has been explored since the 1980s (Leader & Golan, 2008). As proteins are able to perform many tasks in the body, and the activity of each type of protein is very distinct, proteins offer tremendous potential in medical applications . In 2008, there were proteins and peptides approved by the US Food and Drug Administration, most of which deal with antibody-based drugs. Future development of protein therapeutics via protein engineering is currently focused on improved safety, and effectiveness (Leader & Golan, 2008, Carter, 2011)."
+                  text2="A possible future application of protein engineering already being explored can be found in biomaterials design. Biomaterials are materials used to create matter which replaces certain body parts, effectively (Park & Lakes, 2010). As the human body is complex, it is difficult to find substances able to create safe, long lasting, and strong biomaterials for medical procedures such as tissue engineering and reconstructive surgery. Protein engineering may be a solution for such problems. The advantage of proteins in this domain is due to the fact that biomaterials have many functional requirements, both biological and mechanical, and proteins may be engineered to be able to accomplish many of them, as each macromolecular property can be individually contrived. Moreover, proteins are able to regulate the behavior of cells, making it a prime candidate (Maskarinec & Tirrell, 2005)."
+                  text3="Other current and possible future applications of protein engineering include the creation of new hydrogels, which can serve biomedical purposes, and in regenerative medicine (Cai & Heilshorn, 2014, Banta, Wheekdon & Blenner, 2010). Thus, protein engineering has a wide range of applications, mostly explored in the realm of biomedical operations by the scientific community. However, with the advent of protein engineering in biomaterials, protein engineering may soon be used for material applications outside the scope of medicine."
                   embedId="HuvxTN47iCQ"
                 ></ImageText>
               </div>

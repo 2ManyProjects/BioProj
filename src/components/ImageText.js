@@ -36,7 +36,6 @@ function ImageText(props) {
               height: "390",
               width: "640",
               playerVars: {
-                // https://developers.google.com/youtube/player_parameters
                 autoplay: 1,
               },
             }}
@@ -89,7 +88,35 @@ function ImageText(props) {
                   paddingBottom: "2em",
                 }}
               >
-                {props.text}
+                <p>{props.text}</p>
+
+                {props.text2 && (
+                  <p
+                    style={{
+                      flexWrap: "wrap",
+                      wordWrap: "break-word",
+                      justifyContent: "flex-start",
+                      width: "90%",
+                      paddingBottom: "2em",
+                    }}
+                  >
+                    {props.text2}
+                  </p>
+                )}
+
+                {props.text3 && (
+                  <p
+                    style={{
+                      flexWrap: "wrap",
+                      wordWrap: "break-word",
+                      justifyContent: "flex-start",
+                      width: "90%",
+                      paddingBottom: "2em",
+                    }}
+                  >
+                    {props.text3}
+                  </p>
+                )}
               </div>
             </div>
           </div>
@@ -151,6 +178,32 @@ function ImageText(props) {
               >
                 {props.text}
               </p>
+              {props.text2 && (
+                <p
+                  style={{
+                    flexWrap: "wrap",
+                    wordWrap: "break-word",
+                    justifyContent: "flex-start",
+                    width: "90%",
+                    paddingBottom: "2em",
+                  }}
+                >
+                  {props.text2}
+                </p>
+              )}
+              {props.text3 && (
+                <p
+                  style={{
+                    flexWrap: "wrap",
+                    wordWrap: "break-word",
+                    justifyContent: "flex-start",
+                    width: "90%",
+                    paddingBottom: "2em",
+                  }}
+                >
+                  {props.text3}
+                </p>
+              )}
             </div>
           </div>
         )}
