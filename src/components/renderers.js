@@ -152,7 +152,6 @@ class Enbrel extends PureComponent {
             height: this.props.size,
           }}
         />
-        Enbrel
       </div>
     );
   }
@@ -182,7 +181,6 @@ class TNF extends PureComponent {
             height: this.props.size,
           }}
         />
-        TNF
       </div>
     );
   }

@@ -82,6 +82,7 @@ function Navigator(props) {
           display: "flex",
           "flex-direction": "row",
           "justify-content": "space-around",
+          background: "#96D559",
           // left: "50%",
         }}
         type="dark"
