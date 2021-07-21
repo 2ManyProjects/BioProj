@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import qs from "qs";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { Client } from "@freshbooks/api";
 import {
   Button,
   Container,
@@ -23,6 +24,20 @@ export default class Game extends PureComponent {
     let id = qs.parse(this.props.location.search)["?code"];
     console.log(qs.parse(this.props.location.search));
     console.log(id);
+    const client = new Client(id, {
+      clientId: cID,
+    });
+    async function test() {
+      try {
+        // Get the current user
+        const { data } = await client.users.me();
+
+        console.log(`Hello, ${data.id}`);
+      } catch ({ code, message }) {
+        // Handle error if API call failed
+        console.error(`Error fetching user: ${code} - ${message}`);
+      }
+    }
     return (
       <Container
         style={{
@@ -34,7 +49,9 @@ export default class Game extends PureComponent {
           paddingTop: "150px",
         }}
         className="dr-example-container"
-      ></Container>
+      >
+        <button onClick={test}> test </button>
+      </Container>
     );
   }
 }
