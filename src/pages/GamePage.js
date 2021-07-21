@@ -13,6 +13,7 @@ import {
   CardTitle,
   CardSubtitle,
 } from "shards-react";
+import ClientOAuth2 from "client-oauth2";
 
 const window = {
   width: 800,
@@ -29,6 +30,14 @@ export default class Game extends PureComponent {
       clientId: cID,
     });
     async function test() {
+      // var freshbooksAuth = new ClientOAuth2({
+      //   client_id: cID,
+      //   client_secret: CS,
+      //   accessTokenUri: 'https://github.com/login/oauth/access_token',
+      //   authorizationUri: 'https://github.com/login/oauth/authorize',
+      //   redirectUri: 'http://example.com/auth/github/callback',
+      //   scopes: ['notifications', 'gist']
+      // })
       axios
         .post(
           `https://api.freshbooks.com/auth/oauth/token`,
@@ -37,7 +46,7 @@ export default class Game extends PureComponent {
             code: id,
             client_id: cID,
             client_secret: CS,
-            redirect_url: "https://peaceful-hodgkin-9c8bb0.netlify.app/test",
+            redirect_uri: "https://peaceful-hodgkin-9c8bb0.netlify.app/test",
           },
           {
             headers: {
