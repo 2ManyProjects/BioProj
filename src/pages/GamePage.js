@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import qs from "qs";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import { Client } from "@freshbooks/api";
+import axios from "axios";
 import {
   Button,
   Container,
@@ -28,6 +29,20 @@ export default class Game extends PureComponent {
       clientId: cID,
     });
     async function test() {
+      axios
+        .post(`https://api.freshbooks.com/auth/oauth/token`, {
+          grant_type: "authorization_code",
+          code: id,
+          client_id: cID,
+          client_secret: CS,
+          redirect_url: "https://peaceful-hodgkin-9c8bb0.netlify.app/test",
+        })
+        .then((res) => {
+          console.log(JSON.stringify(res, null, 4));
+        })
+        .catch((res) => {
+          console.log(JSON.stringify(res, null, 4));
+        });
       try {
         // Get the current user
         const { data } = await client.users.me();
@@ -38,6 +53,7 @@ export default class Game extends PureComponent {
         console.error(`Error fetching user: ${code} - ${message}`);
       }
     }
+
     return (
       <Container
         style={{
