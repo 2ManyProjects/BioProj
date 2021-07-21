@@ -20,8 +20,9 @@ const cID = "81e488290580a291f526433741c171bf66d173f367ef06be45c65de482a3e1c0";
 const CS = "5e6309f766985e8edbb41d6b451e29a0a6c2e8dbdddafe9232c58740985adbc1";
 export default class Game extends PureComponent {
   render() {
-    let id = qs.parse(this.props.location.search);
+    let id = qs.parse(this.props.location.search)["?code"];
     console.log(qs.parse(this.props.location.search));
+    console.log(id);
     return (
       <Container
         style={{
