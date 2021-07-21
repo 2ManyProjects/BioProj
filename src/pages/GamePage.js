@@ -30,28 +30,36 @@ export default class Game extends PureComponent {
     });
     async function test() {
       axios
-        .post(`https://api.freshbooks.com/auth/oauth/token`, {
-          grant_type: "authorization_code",
-          code: id,
-          client_id: cID,
-          client_secret: CS,
-          redirect_url: "https://peaceful-hodgkin-9c8bb0.netlify.app/test",
-        })
+        .post(
+          `https://api.freshbooks.com/auth/oauth/token`,
+          {
+            grant_type: "authorization_code",
+            code: id,
+            client_id: cID,
+            client_secret: CS,
+            redirect_url: "https://peaceful-hodgkin-9c8bb0.netlify.app/test",
+          },
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        )
         .then((res) => {
           console.log(JSON.stringify(res, null, 4));
         })
         .catch((res) => {
           console.log(JSON.stringify(res, null, 4));
         });
-      try {
-        // Get the current user
-        const { data } = await client.users.me();
+      // try {
+      //   // Get the current user
+      //   const { data } = await client.users.me();
 
-        console.log(`Hello, ${data.id}`);
-      } catch ({ code, message }) {
-        // Handle error if API call failed
-        console.error(`Error fetching user: ${code} - ${message}`);
-      }
+      //   console.log(`Hello, ${data.id}`);
+      // } catch ({ code, message }) {
+      //   // Handle error if API call failed
+      //   console.error(`Error fetching user: ${code} - ${message}`);
+      // }
     }
 
     return (
